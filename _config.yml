@@ -69,7 +69,7 @@ theme: cactus-dark
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:jpparent/jpparent.github.io.git
+  repo: https://github.com/jpparent/jpparent.github.io.git
   branch: master
 
 # RSS feed
