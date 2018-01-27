@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JP&#39;s little blog</title>
+  
+  <subtitle>Blog about gamedev, software engineering and whatnot</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://jpparent.com/"/>
+  <updated>2018-01-01T03:06:10.477Z</updated>
+  <id>http://jpparent.com/</id>
+  
+  <author>
+    <name>Jean-Philippe Parent</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Finally My First Post!</title>
+    <link href="http://jpparent.com/2017/12/31/first-post/"/>
+    <id>http://jpparent.com/2017/12/31/first-post/</id>
+    <published>2018-01-01T01:48:42.000Z</published>
+    <updated>2018-01-01T03:06:10.477Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hello World!&lt;/p&gt;
+&lt;p&gt;Here we are. My first post, on my own website. After owning the domain name since 2013, I finally write something
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
