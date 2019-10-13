@@ -2,10 +2,14 @@ sudo: false
 language: node_js
 node_js:
   - 10 # use nodejs v10 LTS
-cache: npm
+cache: 
+  - npm
+  - node_modules
 branches:
   only:
-    - master # build master branch only
+    - source # build source branch only
+before_script:
+  - git submodule update --init
 script:
   - hexo generate # generate static files
 deploy:
@@ -13,6 +17,7 @@ deploy:
   skip_cleanup: true
   github-token: $GH_TOKEN
   keep_history: true
+  target_branch: master
   on:
-    branch: master
+    branch: source # deploy from source branch only
   local-dir: public
