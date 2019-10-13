@@ -65,13 +65,6 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: cactus-dark
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github.com/jpparent/jpparent.github.io.git
-  branch: master
-
 # RSS feed
 feed:
   type: atom
@@ -80,4 +73,3 @@ feed:
   content: false
   content_limit: 140
   content_limit_delim: ' '
-
