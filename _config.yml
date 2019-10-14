@@ -8,7 +8,7 @@ subtitle: Blog about gamedev, software engineering and whatnot
 description: Simple blog mostly about game development and software engineering!
 author: Jean-Philippe Parent
 language: en
-timezone: Canada/Eastern
+timezone: America/Montreal
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
