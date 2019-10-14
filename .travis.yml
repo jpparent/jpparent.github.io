@@ -9,15 +9,16 @@ branches:
   only:
     - source # build source branch only
 before_script:
-  - git submodule update --init
+  - export TZ=America/Montreal # set the correct timezone on the machine
+  - git submodule update --init # fetch my theme's code which is linked as a submodule
 script:
   - hexo generate # generate static files
 deploy:
   provider: pages
   skip_cleanup: true
   github-token: $GH_TOKEN
-  keep_history: true
-  target_branch: master
+  keep_history: true # keep git history instead of force pushing a new one
+  target_branch: master # deploy to master (from source)
   on:
-    branch: source # deploy from source branch only
-  local-dir: public
+    branch: source # allow deployment from source branch only
+  local-dir: public # files to push are located in public/ folder
